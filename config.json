@@ -7,13 +7,13 @@
     "startup": "once",
     "boot": "auto",
     "options": {
-        "Country": null,
-        "StateOrProvince": null,
+        "Country": US,
+        "StateOrProvince": FL,
         "Locality": null,
         "Organization": "Home",
-        "OrganizationalUnit": null,
+        "OrganizationalUnit": OU,
         "CommonName": "hassio.local",
-        "Email": null,
+        "Email": me@me.com,
         "certfile": "certificate.pem",
         "keyfile": "privkey.pem"
     },
