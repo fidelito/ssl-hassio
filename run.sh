@@ -1,17 +1,15 @@
 #!/bin/bash
 set -e
 
-CONFIG_OPTIONS=/data/options.json
-
-COUNTRY=$(US)
-STATE=$(FL)
-LOCALITY=$(Miami)
+COUNTRY="US"
+STATE="FL"
+LOCALITY="Miami"
 ORG=$(OU)
-ORG_UNIT=$(OU)
-COMMON_NAME=$(CN)
-EMAIL=$(me@me.com)
-CERTFILE=$(jq --raw-output ".certfile" $CONFIG_OPTIONS)
-KEYFILE=$(jq --raw-output ".keyfile" $CONFIG_OPTIONS)
+ORG_UNIT="OU"
+COMMON_NAME="CN"
+EMAIL="me@me.com"
+CERTFILE="certificate.pem"
+KEYFILE="privkey.pem"
 
 echo `openssl version`
 
