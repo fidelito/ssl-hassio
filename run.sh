@@ -4,7 +4,7 @@ set -e
 COUNTRY="US"
 STATE="FL"
 LOCALITY="Miami"
-ORG=$(OU)
+ORG="OU"
 ORG_UNIT="OU"
 COMMON_NAME="CN"
 EMAIL="me@me.com"
