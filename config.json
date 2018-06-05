@@ -9,7 +9,7 @@
     "options": {
         "Country": US,
         "StateOrProvince": FL,
-        "Locality": null,
+        "Locality": Miami,
         "Organization": "Home",
         "OrganizationalUnit": OU,
         "CommonName": "hassio.local",
