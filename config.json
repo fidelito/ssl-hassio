@@ -1,6 +1,6 @@
 {
     "name": "Self-Signed Certificate",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "map": ["ssl:rw"],
     "slug": "selfsigned_cert",
     "description": "Create self-signed certificates.",
